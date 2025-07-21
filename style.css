@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+#calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 20px;
+    height: fit-content;
+    width: fit-content;
+    padding: 20px;
+
+}
+#display {
+    display: flex;
+    align-items: flex-end;
+    align-content: flex-end;
+    justify-content: flex-end;
+    border: 2px solid;
+    border-radius: 20px;
+    background-color: ghostwhite;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    padding : 0 10px 5px;
+    box-sizing: border-box;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+
+}
+#numbers {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 180px;
+    box-sizing: border-box;
+}
+#operators {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    box-sizing: border-box;
+    flex: 1;
+    justify-content: space-between;
+}
+#ops {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+}
+.row4, .row, .rowop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex: 1;
+    gap: 10px;
+}
+button {
+    width: 60px;
+    height: 90px;
+    box-sizing: border-box;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 20px;
+    border: 1px solid;
+}
+#equals {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#eq {
+    width: 145px;
+}
+
+
