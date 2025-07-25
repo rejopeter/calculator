@@ -25,7 +25,7 @@ function operation(a, b, operator) {
     if (operator == "-") {
         return subtract(a,b);
     }
-    if (operator == "*") {
+    if (operator == "X") {
         return multiply(a,b);
     }
     if (operator == "/") {
@@ -58,7 +58,7 @@ document.querySelectorAll("button").forEach(btn => {
     if (!["clear", "delete", "eq", "sign"].includes(btn.id)) {
         btn.addEventListener("click", function () {
             let value = btn.textContent;
-            if (["+", "-", "*", "/"].includes(value)) {
+            if (["+", "-", "X", "/"].includes(value)) {
                 handleOperator(value);
             } else {
                 appendToInput(value);
